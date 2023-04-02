@@ -17,7 +17,8 @@ ul {
     justify-content: space-around;
 }
 
-li,a {
+li,
+a {
     color: #e3b062;
     text-decoration: none;
     color: #e3b062;
@@ -46,11 +47,11 @@ li,a {
 
 /* Começo do banner */
 
-span {
-    font-weight: 800; 
+.div_banner .div_container span {
+    font-weight: 800;
 }
 
-p {
+.div_banner .div_container p {
     width: 250px;
     font-size: 40px;
 }
@@ -86,7 +87,7 @@ p {
 .div_social .div_container img {
     width: 150px;
     height: 150px;
-    
+
 }
 
 .div_container .card {
@@ -96,4 +97,21 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Fim do social */
+
+/* Começo da footer */
+
+.div_footer {
+    width: 100%;
+    background-color: #32b0cd;
+    color: white;
+}
+
+.div_footer .div_container {
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    text-align: center;
 }
